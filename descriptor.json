@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "dc12a95c-f9eb-420c-ba38-ffc9d5d783ef",
+    "PackageVersion": "7.8.0",
+    "Name": "UsrDevTools",
+    "ModifiedOnUtc": "\/Date(1685986008000)\/",
+    "Maintainer": "CDH",
+    "Description": "https://github.com/constantine7d/CreatioDevToolsPkg",
+    "DependsOn": [
+      {
+        "UId": "613fd913-be03-46ce-909b-f44e4225469e",
+        "PackageVersion": "7.8.0",
+        "Name": "UIv2"
+      }
+    ]
+  }
+}
