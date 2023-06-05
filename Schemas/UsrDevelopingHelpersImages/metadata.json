@@ -1,0 +1,29 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ClientUnitSchemaManager",
+      "UId": "21c4e922-c30b-4c6f-8a26-09b2084a2369",
+      "A2": "UsrDevelopingHelpersImages",
+      "A5": "a582beab-69be-4699-b0b3-ed2700c1ed6e",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "dc12a95c-f9eb-420c-ba38-ffc9d5d783ef",
+      "B8": "7.12.1.924",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD4": 1,
+      "HD6": "null",
+      "HD5": [],
+      "HD7": [],
+      "HD8": [
+        {
+          "UId": "91ebc565-cc61-4a33-a3d4-efe55694ef15",
+          "A2": "FavIcon",
+          "A3": "21c4e922-c30b-4c6f-8a26-09b2084a2369",
+          "A4": "21c4e922-c30b-4c6f-8a26-09b2084a2369"
+        }
+      ],
+      "HD11": []
+    }
+  }
+}

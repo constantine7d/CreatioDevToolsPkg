@@ -1,0 +1,20 @@
+= MetaData.Schema.UId "fef937ef-9877-42e2-a869-72a34db9b792"
+= MetaData.Schema.A5 "a582beab-69be-4699-b0b3-ed2700c1ed6e"
+= MetaData.Schema.B6 "dc12a95c-f9eb-420c-ba38-ffc9d5d783ef"
++ MetaData.Schema.B7 true
+= MetaData.Schema.B8 "7.12.1.924"
+= MetaData.Schema.HD1 "3431e29c-09d8-4c7c-a1d5-4f76de040039"
++ MetaData.Schema.HD8 {
+  "UId": "8f7b98dd-2916-4187-a031-5627830a8780",
+  "A2": "UsrDevHelpersIcon",
+  "A3": "fef937ef-9877-42e2-a869-72a34db9b792",
+  "A4": "fef937ef-9877-42e2-a869-72a34db9b792"
+}
++ MetaData.Schema.HD8 {
+  "UId": "9c686bb5-5a9e-47e0-b274-d8e0a76ae853",
+  "A2": "UsrEntitySchemaIcon",
+  "A3": "fef937ef-9877-42e2-a869-72a34db9b792",
+  "A4": "fef937ef-9877-42e2-a869-72a34db9b792"
+}
+~ MetaData.Schema.HD8 ["63d0c0f5-f971-427a-a033-1dce4dfa826d","151c3ce5-1170-4a1d-b11e-e8b9a1e4fdd3","55f7a443-bbf8-4515-abbc-3a83665fef95","89a93e66-13fb-48c0-97b9-09e5e3f05188","a1be7007-5eb6-4b5b-8fb7-fa875d798c0d","f9847866-4b56-4a58-948a-046ca88badba","fc61df78-ae9e-47bb-b6b6-b36f4380d75c","7d62cc4e-a63f-4cf7-b15b-dd07c83e2988","bea36ea2-c012-48c4-ae18-31026edff799","4885892a-dbbf-44cb-a627-656001399a9b","f7c61108-eb50-4296-8a3c-87685b8c2819","3569f192-c3e7-4a64-bad7-a164533848d5","43441cef-44fe-49da-b2c5-eb41e7b1ec5a","b481f93a-b387-4da8-bbf3-425374acdd05","289a7b39-962b-46c0-9b85-0ec6969a6c20","5bc42861-c30e-493c-8f63-8b893f35db50","4be61bab-673f-4d8c-b0fe-504000100e7a","4dc1d747-6f3c-4f6e-89bb-039f6d524c44","9ab38e47-55fd-41b8-a33c-e1767e5bfd4c","bbbb15b1-a505-4708-8726-ec5fdb1a7b49","594be96c-44c2-42ad-b85f-ef0eaf4382bc","a96d6c4a-36dc-4f39-8ab0-151d2305ca15","88f9f925-c37a-4c18-b2df-d1daf81bbaf2","1ae25923-3b3f-4adc-9a48-024abcf2c87e","6617b8d6-5575-4011-95f1-f90213577b4e","dc7f532e-19a4-46e5-8c53-94362a3c37c4","8f7b98dd-2916-4187-a031-5627830a8780","9c686bb5-5a9e-47e0-b274-d8e0a76ae853"]
++ MetaData.Schema.B7 true
