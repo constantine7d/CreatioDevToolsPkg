@@ -1,0 +1,42 @@
+﻿{
+  "Descriptor": {
+    "UId": "30715829-2308-4863-9869-e8b6f1c42261",
+    "Name": "LookupInFolder_DataHelper",
+    "ModifiedOnUtc": "\/Date(1680706604000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "ef4ef612-076e-4770-b0b1-9111e8a33116",
+      "Name": "LookupInFolder"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "ProcessListeners",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+        "IsForceUpdate": true,
+        "IsKey": true,
+        "ColumnName": "Folder",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "34391227-ac90-4b55-9739-6720e97a0594",
+        "IsForceUpdate": true,
+        "IsKey": true,
+        "ColumnName": "Lookup",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      }
+    ]
+  }
+}

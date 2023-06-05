@@ -1,0 +1,42 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "bfc3dee4-73c0-4078-9f95-bd99705f165c"
+        },
+        {
+          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+          "Value": "!DataHelper"
+        },
+        {
+          "SchemaColumnUId": "527b9e4e-7dbf-4721-a112-72b423b3365a",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "e44c8807-bc0e-4415-b41c-2272c8fbdf42",
+          "Value": "65ca0946-0084-4874-b117-c13199af3b95",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "4d5be702-fa8a-4b6b-97d0-f666b99f108e",
+          "Value": "eyJjbGFzc05hbWUiOiJUZXJyYXNvZnQuRmlsdGVyR3JvdXAiLCJpdGVtcyI6eyI0YTAwZTE0Mi03Y2MwLTRmN2MtOTU4My1iYjVjNTA2ZGJiMWYiOnsiY2xhc3NOYW1lIjoiVGVycmFzb2Z0LkNvbXBhcmVGaWx0ZXIiLCJmaWx0ZXJUeXBlIjoxLCJjb21wYXJpc29uVHlwZSI6MywiaXNFbmFibGVkIjp0cnVlLCJ0cmltRGF0ZVRpbWVQYXJhbWV0ZXJUb0RhdGUiOmZhbHNlLCJsZWZ0RXhwcmVzc2lvbiI6eyJjbGFzc05hbWUiOiJUZXJyYXNvZnQuQ29sdW1uRXhwcmVzc2lvbiIsImV4cHJlc3Npb25UeXBlIjowLCJjb2x1bW5QYXRoIjoiRGVzY3JpcHRpb24ifSwiaXNBZ2dyZWdhdGl2ZSI6ZmFsc2UsImtleSI6IjRhMDBlMTQyLTdjYzAtNGY3Yy05NTgzLWJiNWM1MDZkYmIxZiIsImRhdGFWYWx1ZVR5cGUiOjEsImxlZnRFeHByZXNzaW9uQ2FwdGlvbiI6ItCe0L/QuNGB0LDQvdC40LUiLCJyaWdodEV4cHJlc3Npb24iOnsiY2xhc3NOYW1lIjoiVGVycmFzb2Z0LlBhcmFtZXRlckV4cHJlc3Npb24iLCJleHByZXNzaW9uVHlwZSI6MiwicGFyYW1ldGVyIjp7ImNsYXNzTmFtZSI6IlRlcnJhc29mdC5QYXJhbWV0ZXIiLCJkYXRhVmFsdWVUeXBlIjoxLCJ2YWx1ZSI6IkRhdGFIZWxwZXIifX19fSwibG9naWNhbE9wZXJhdGlvbiI6MCwiaXNFbmFibGVkIjp0cnVlLCJmaWx0ZXJUeXBlIjo2LCJyb290U2NoZW1hTmFtZSI6Ikxvb2t1cCIsImtleSI6IkZvbGRlckZpbHRlcnMifQ=="
+        },
+        {
+          "SchemaColumnUId": "7194c633-a5a9-48cf-a96c-d8b548878b2f",
+          "Value": 0
+        }
+      ]
+    }
+  ]
+}

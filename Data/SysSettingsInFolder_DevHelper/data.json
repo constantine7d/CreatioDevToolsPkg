@@ -1,0 +1,58 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "ea0197fc-d00d-43b5-8fa6-bf35ab280dad",
+          "DisplayValue": "!Devhelper"
+        },
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4644b2d8-d132-4b49-a88a-28f8f7a7142c"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "474705f1-4efb-4c08-a89a-65e3855c9cbb",
+          "DisplayValue": "Префикс названия объекта"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "ea0197fc-d00d-43b5-8fa6-bf35ab280dad",
+          "DisplayValue": "!Devhelper"
+        },
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e508bcc3-30fe-410c-85ae-7fcb7ac5a1c6"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "ea2b5fc2-a62f-471a-a7d3-f37927dbcc01",
+          "DisplayValue": "Таймаут сеанса пользователя"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "ea0197fc-d00d-43b5-8fa6-bf35ab280dad",
+          "DisplayValue": "!Devhelper"
+        },
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "026cb1b9-34db-4b0c-b9a9-bcd958280f5c"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "d19fb57d-e331-4e7e-9906-17f1f4cceecb",
+          "DisplayValue": "Текущий пакет"
+        }
+      ]
+    }
+  ]
+}

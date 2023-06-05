@@ -1,0 +1,10 @@
+﻿{
+  "SqlScript": {
+    "UId": "a40ade6b-3744-4b43-b3f4-25ddec4f31f5",
+    "Name": "SysSettingsInFolder_DevHelper_Maintainer_Oracle",
+    "DBEngineType": 1,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1623243469000)\/",
+    "DependsOn": []
+  }
+}

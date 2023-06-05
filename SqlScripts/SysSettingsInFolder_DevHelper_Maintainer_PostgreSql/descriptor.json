@@ -1,0 +1,10 @@
+﻿{
+  "SqlScript": {
+    "UId": "f8606395-bd14-48a0-95b2-f01a739617bb",
+    "Name": "SysSettingsInFolder_DevHelper_Maintainer_PostgreSql",
+    "DBEngineType": 2,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1623244422000)\/",
+    "DependsOn": []
+  }
+}

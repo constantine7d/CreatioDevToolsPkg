@@ -1,0 +1,10 @@
+﻿{
+  "SqlScript": {
+    "UId": "88bc863f-95f9-4451-a166-4a618d958b26",
+    "Name": "SysSettingsInFolder_DevHelper_Maintainer_MSSql",
+    "DBEngineType": 0,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1623243465000)\/",
+    "DependsOn": []
+  }
+}
