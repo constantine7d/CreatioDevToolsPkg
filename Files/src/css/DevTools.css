@@ -1,0 +1,16 @@
+.usr-dev-helper-communication-button {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+
+	.t-btn-menu {
+		margin: auto;
+		right: 0;
+	}
+}
+.usr-dev-helper-communication-button-image {
+	width: 30px !important;
+	height: 30px !important;
+	background-size: contain;
+}
