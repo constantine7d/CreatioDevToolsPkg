@@ -3,7 +3,7 @@
 ## Install
 
 Use [clio](https://github.com/Advance-Technologies-Foundation/clio) tool for installation. 
-- Build UsrDevTools project
+- Build UsrDevTools project `dotnet build --configuration Release`
 - Compress pkg `clio generate-pkg-zip . -d .\UsrDevTools.gz` or use UsrDevTools.gz from repository (don't need build project).
 - Use clio for install or install it manualy.
 
@@ -20,6 +20,13 @@ Open module page from navigation panel or go to http://siteaddress/0/Nui/ViewMod
 ### Entity schemas browser
 
 Open module page from navigation panel or go to http://siteaddress/0/Nui/ViewModule.aspx#UsrEntitySchemasHelperModule
+
+#### Features
+
+- Export schema column
+- Open base edit page
+- Generate constants for lookup to clipboard
+- Generate ESQ, Sql select code
 
 ### Developing helper
 

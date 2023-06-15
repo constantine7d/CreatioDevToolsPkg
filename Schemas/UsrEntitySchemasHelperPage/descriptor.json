@@ -2,7 +2,7 @@
 	"Descriptor": {
 		"UId": "c3403a86-a27d-4fe3-bc0f-8ce335bc7082",
 		"Name": "UsrEntitySchemasHelperPage",
-		"ModifiedOnUtc": "/Date(1685703591000)/",
+		"ModifiedOnUtc": "/Date(1686860247000)/",
 		"ManagerName": "ClientUnitSchemaManager",
 		"Caption": "EntitySchemasHelperPage"
 	}

@@ -4,6 +4,7 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 ) {
 	const SCHEMA_ROW_ELEMENT_TYPE_NAME = "Schema";
 	const COLUMN_ROW_ELEMENT_TYPE_NAME = "Column";
+	const HELPER_SERVICE_NAME = "UsrEntitySchemasHelperService";
 	/**
 	 * Represents a column in a schema.
 	 *
@@ -322,6 +323,13 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 									}
 								]
 							}
+						},
+						{
+							className: "Terrasoft.Button",
+							style: Terrasoft.controls.ButtonEnums.style.TRANSPERENT,
+							caption: "Export schema",
+							tag: "ExportSchema",
+							visible: { "bindTo": "getActiveRowActionVisible" }
 						}
 					],
 					primaryColumnName: "Id",
@@ -494,12 +502,7 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 		},
 		methods: {
 			callService: function (methodName, data) {
-				return DevHelpersUtils.callService(
-					"UsrEntitySchemasHelperService",
-					methodName,
-					this,
-					data
-				);
+				return DevHelpersUtils.callService(HELPER_SERVICE_NAME, methodName, this, data);
 			},
 			callCodeGeneratorService: function (methodName, data) {
 				return DevHelpersUtils.callService(
@@ -1101,6 +1104,26 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 				this.copyData(generatedCode);
 			},
 
+			exportSchema: function (type, recordId) {
+				const gridData = this.getGridData();
+				const currentRow = gridData.get(recordId);
+				let schemaName = currentRow.$Name;
+				if (currentRow.$Type === COLUMN_ROW_ELEMENT_TYPE_NAME) {
+					schemaName = currentRow.$ParentSchemaName;
+				}
+				const file = document.createElement("a");
+				file.href = Ext.String.format(
+					"../rest/{0}/{1}/{2}",
+					HELPER_SERVICE_NAME,
+					"GetSchemaExport",
+					schemaName
+				);
+				file.download = schemaName + ".csv";
+				document.body.appendChild(file);
+				file.click();
+				document.body.removeChild(file);
+			},
+
 			getCopyColumnPathByAttr: function (attrName, recordId, withSchema) {
 				const withBracket = attrName === "Caption";
 				const getName = currentRow => {
@@ -1183,6 +1206,7 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 					switch (activeRowElTag) {
 						case "Edit":
 						case "GenerateCode":
+						case "ExportSchema":
 							return true;
 					}
 				}
@@ -1191,6 +1215,7 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 						case "CopyPath":
 							return true;
 						case "GenerateCode":
+						case "ExportSchema":
 							return !!this.$ParentSchemaName;
 					}
 				}
@@ -1231,6 +1256,9 @@ define("UsrEntitySchemasHelperPage", ["UsrDevHelpersUtilsJs", "UsrGenerateQueryJ
 					case "QueryUpdateSQL":
 					case "QueryDeleteSQL":
 						this.generateSqlQuery(actionName, recordId);
+						break;
+					case "ExportSchema":
+						this.exportSchema(actionName, recordId);
 						break;
 				}
 			},
