@@ -23,7 +23,7 @@ Open module page from navigation panel or go to http://siteaddress/0/Nui/ViewMod
 
 #### Features
 
-- Export schema column
+- Export schema columns
 - Open base edit page
 - Generate constants for lookup to clipboard
 - Generate ESQ, Sql select code
