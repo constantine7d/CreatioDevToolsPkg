@@ -38,6 +38,7 @@ namespace UsrDevTools
 			foreach (var entitySchemaManagerItem in entitySchemaManagerItems)
 			{
 				var entitySchema = entitySchemaManager.GetInstanceByName(entitySchemaManagerItem.Name);
+				if (entitySchema is null) { continue; }
 				var schemaConfig = new EntitySchemaConfig(entitySchema);
 				entitySchemaConfigsDict.Add(schemaConfig, entitySchema);
 				entitySchemaConfigs.Add(schemaConfig);

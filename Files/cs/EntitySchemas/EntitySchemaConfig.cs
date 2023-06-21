@@ -51,10 +51,15 @@ namespace UsrDevTools
 
 		public EntitySchemaConfig(EntitySchema entitySchema) : this()
 		{
+			if (entitySchema is null)
+			{
+				throw new ArgumentNullException(nameof(entitySchema));
+			}
+
 			Name = entitySchema.Name;
 			Caption = entitySchema.Caption?.Value ?? nullString;
-			ParentSchemaName = entitySchema.ParentSchema.Name;
-			ParentSchemaCaption = entitySchema.ParentSchema.Caption?.Value ?? nullString;
+			ParentSchemaName = entitySchema.ParentSchema?.Name ?? nullString;
+			ParentSchemaCaption = entitySchema.ParentSchema?.Caption?.Value ?? nullString;
 			InitSysSchemas(entitySchema.SystemUserConnection, entitySchema.Name);
 		}
 
